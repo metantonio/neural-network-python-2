@@ -1,5 +1,3 @@
-Este script en python se realizó para demostrar cómo una red neuronal simple se puede programar en python
-
 Está hecho pensando en usuarios de nivel medio.
 
 Descargar los archivos en una misma carpeta.
