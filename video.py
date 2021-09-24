@@ -10,10 +10,10 @@ def generate_writer():
     pyplot.xlim(0, parameters.width)
     pyplot.ylim(0, parameters.height)
     axis = pyplot.gca()
-    axis.set_axis_bgcolor('black')
+    axis.set_facecolor('blue')
     axis.axes.get_xaxis().set_visible(False)
     axis.axes.get_yaxis().set_visible(False)
-    rcParams['font.size'] = 12
+    rcParams['font.size'] = 14
     rcParams['text.color'] = 'white'
     return fig, writer
 

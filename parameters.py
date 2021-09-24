@@ -12,6 +12,9 @@ output_y_position = 15
 
 # Parameters for the video
 frames_per_second = 1
-show_iterations = [2, 10, 20, 50, 100, 200, 300, 400, 500, 1000, 2500, 12500, 60000]
+show_iterations = [2, 10, 20, 50, 100, 200, 300, 400, 500, 1000, 2500, 3000, 10000]
 video_file_name = "neural_network.mp4"
 metadata = dict(artist="Antonio Martinez (Metantonio)", title="Neural Network")
+
+# Parameters for training the network
+training_iterations = 10000
