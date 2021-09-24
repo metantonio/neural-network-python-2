@@ -1,5 +1,5 @@
 #layers can be [input, hidden, hidden,...,hidden,...,output]
-neurons_in_layers=[2,8,1]
+neurons_in_layers=[3,8,1]
 
 class TrainingExample():
     def __init__(self, inputs, output):
